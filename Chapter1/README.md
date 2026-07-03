@@ -8,4 +8,4 @@
 ## Function函數 f(x)=3x+6  
 - 一個函數只能return一個值
 - Function和Method目前是互通的
-- ![Built-in Python Methods for Numbers](./內建方法.png)
+![Built-in Python Methods for Numbers](./內建方法.png)
