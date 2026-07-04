@@ -23,7 +23,7 @@ print(name) # WILSON
 name = "Wilson"
 print(name.upper().isupper()) # True
 
-# index
+# index 和_19的find比較  若找的字不在裡面,會報error,而find則會回傳-1
 name = "Wilson"
 print(name[0]) # W  indexing
 print(name.index("W")) # 0 index
