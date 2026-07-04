@@ -9,3 +9,6 @@
 - 一個函數只能return一個值
 - Function和Method目前是互通的
 ![Built-in Python Methods for Numbers](./內建方法.png)
+
+## Variable and Assignment
+x=5  x-variable, 5-value, =代表Ａssignment　operator
