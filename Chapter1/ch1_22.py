@@ -1,23 +1,29 @@
 # List
-'list' object has no attribute 'find'
+friends = ["Wilson", "Mike", "Nelson", "Greg", "Jimmy"]
 
 # insert
 friends.insert(2, "Aaron")
 print(friends) # ['Wilson', 'Mike', 'Aaron', 'Nelson', 'Greg', 'Jimmy']
 
 # remove
+friends = ["Wilson", "Mike", "Nelson", "Greg", "Jimmy"]
 friends.remove("Nelson")
-print(friends) # ['Wilson', 'Mike', 'Aaron', 'Greg', 'Jimmy']
+print(friends) # ['Wilson', 'Mike',  'Greg', 'Jimmy']
 
 #clear
+friends = ["Wilson", "Mike", "Nelson", "Greg", "Jimmy"]
 friends.clear()
 print(friends) # []
 
 #sort
+friends = ["Wilson", "Mike", "Nelson", "Greg", "Jimmy"]
 friends.sort()
-print(friends) # ['Aaron', 'Greg', 'Jimmy', 'Mike', 'Wilson']
+print(friends) # ['Greg', 'Jimmy', 'Mike', 'Nelson', 'Wilson']
 
 #reverse
-print(friends.reverse()) # ['Wilson', 'Mike', 'Jimmy', 'Greg', 'Aaron']
+friends = ["Wilson", "Mike", "Nelson", "Greg", "Jimmy"]
+friends.reverse()
+print(friends) # ['Jimmy', 'Greg', 'Nelson', 'Mike', 'Wilson']
 #也可以用
+friends = ["Wilson", "Mike", "Nelson", "Greg", "Jimmy"]
 print(friends[::-1]) # ['Wilson', 'Mike', 'Jimmy', 'Greg', 'Aaron']
