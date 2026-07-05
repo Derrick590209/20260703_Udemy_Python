@@ -12,3 +12,16 @@
 
 ## Variable and Assignment
 x=5  x-variable, 5-value, =代表Ａssignment　operator
+
+## 資料的形式及特性
+
+| 資料類型 | immutable | ordered | unique | iterable |
+|----------|:---------:|:-------:|:------:|:--------:|
+| int      | ✅ | ❌ | ❌ | ❌ |
+| float    | ✅ | ❌ | ❌ | ❌ |
+| bool     | ✅ | ❌ | ❌ | ❌ |
+| tuple    | ✅ | ✅ | ❌ | ✅ |
+| string   | ✅ | ✅ | ❌ | ✅ |
+| list     | ❌ | ✅ | ❌ | ✅ |
+| dict     | ❌ | ✅ | ✅(鍵唯一) | ✅ |
+| set      | ❌ | ❌ | ✅ | ✅ |
